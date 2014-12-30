@@ -1,0 +1,79 @@
+h3{
+    color:#fff;
+}
+h5{
+    color:#fff;
+}
+
+h2{
+    color:#fff;
+}
+body{
+    background:#099;
+    font-family: 'lucida grande',sans,verdana,arial,sans-serif;
+    font-size: 14px;
+    color:#9CF;
+    }
+#disenform{
+    background:#fff;
+    width: 500px;
+	height: 300px;
+    border: 1px solid #ccc;
+    padding:5px;
+    }
+#disenform2{
+    background:#fff;
+    width: 500px;
+	height: 600px;
+    border: 1px solid #ccc;
+    padding:5px;
+}
+#disenform div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+#disenform input[type=text]{
+    padding: 5px 5px 5px 28px;
+    font-weight: bold;
+    border: 1px solid #555555;
+    }
+#disenform input[type=password]{
+    padding: 5px 5px 5px 28px;
+    font-weight: bold;
+    border: 1px solid #555555;
+    }
+#disenform input[type=submit]:hover{
+    background: #00561D;
+    color:#fff;
+    cursor: pointer;
+    }
+.user{
+    background: url(user.png)no-repeat;
+    background-size:25px;
+    }
+.password{
+    background: url(password.png)no-repeat;
+    background-size:25px;
+    }
+.textarea{
+    background: url(textarea.png)no-repeat;
+    background-size: 25px 25px;
+    background-position: 2px 2px;
+    }
+.select{
+    background: url(option.png)no-repeat;
+    background-size: 25px 25px;
+    background-position: 2px 2px;
+    }
+#disenform select{
+    padding: 5px 5px 5px 28px;
+    font-weight: bold;
+    }
+#disenform textarea{
+    padding:25px 5px 5px 5px;
+    font-weight: bold;
+    resize: none;
+    width:94%;
+    height: 150px;
+    margin-left: 2px;
+    }

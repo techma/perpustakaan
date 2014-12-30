@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+.background {
+	background-image:url(../img/tumblr_mmzwbz5xQa1spczvko1_1280.jpg);
+		
+}
+
+.tabel {
+	margin-top:0;
+	margin-left:75px;
+	margin-right:25px;
+	border:0;
+	padding:0;
+	display:100%;
+	background-color:#000000;
+	width:1200px;
+	height:223px;
+	opacity:0.8;
+}
+
+.tabel2 {
+	margin-top:0px;
+	margin-left:75px;
+	margin-right:25px;
+	border:0;
+	padding:0;
+	background-color:#FFF;
+	width:1200px;
+	height:400px;	
+}
+
+.tabel3 {
+margin-top:0;
+margin-left:600px;
+margin-right:250px;
+border:0;
+padding:0;
+background-color:#FFFFFF;
+width:500;
+height:400;
+}
+
+.header2{
+	font-family:"Times New Roman", Times, serif;
+	color:#0099FF;
+	align : center;
+	margin-top:120px;
+	margin-left:345px;
+	position:absolute;
+	padding:0;
+	font-size:25px;
+}
+
+.logo{
+margin-top:3 px;
+align : center;
+position:absolute; 
+padding: 0;
+margin-left :550px;
+}
+
+.header{
+	font-family:"Times New Roman", Times, serif;
+	color:#0099FF;
+	align: center;
+	margin-top:90px;
+	position:absolute;
+	margin-left:415px;
+	padding:0;
+	font-size:25px;
+}
+
+.menu{
+margin-top:170px;
+align  : center;
+margin-left:285px;
+padding:10;
+position:absolute;
+}
+
+.menu2{
+margin-top:170px;
+align  : center;
+margin-left:150px;
+padding:10;
+position:absolute;
+}
+
+.welcome{
+	width:100%;
+	height:50px;
+	background-color:#FFFFFF;
+	opacity : 0.8;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	margin-left:0px;
+	margin-top:0;
+	padding:0;
+	display:100%;
+}
+
+.posisi {
+margin-top: 10;
+padding:0;
+
+}

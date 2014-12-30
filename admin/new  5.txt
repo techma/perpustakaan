@@ -1,0 +1,8 @@
+<html>
+<head><title>Administrator</title>
+<link rel="stylesheet" type="text/css" href="../tpl/style_admin.css">
+</head>
+
+<body>
+</body>
+</html>

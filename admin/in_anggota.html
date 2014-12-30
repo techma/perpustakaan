@@ -1,0 +1,59 @@
+<html>
+<head><title>Administrator</title>
+<link rel="stylesheet" type="text/css" href="../tpl/style_admin.css">
+</head>
+
+<body>
+<form name="form1" method="post" action="exe_anggota.php" ">
+<table width="425" border="0" align="center" cellpadding="0" cellspacing="2" class="tb_admin">
+	<tr bgcolor="#BFD0EA">
+		<td height="21" colspan="3"><strong>Masukkan Data Anggota</strong></td>
+	</tr>
+	<tr>
+		<td width="23%" align="right">User id</td>
+		<td width="2%"><b>:</b></td>
+		<td width="75%"><input name="fm_user" type="text" id="fm_user" size="35" maxlength="35"></td>
+	</tr>
+	<tr>
+		<td align="right">Password</td>
+		<td><b>:</b></td>
+		<td><input name="fm_password" type="text" id="fm_password" size="35" maxlength="35"></td>
+	</tr>
+	<tr>
+		<td align="right">Nama</td>
+		<td><b>:</b></td>
+		<td><input name="fm_nama" type="text" id="fm_nama" size="35" maxlength="35"></td>
+	</tr>
+	<tr>
+		<td align="right">Sex</td>
+		<td><b>:</b></td>
+		<td><select name="fx_sex" id="fm_sex">
+			<option value="P">Pria</option>
+			<option value="W">Wanita</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right">Email</td>
+		<td><b>:</b></td>
+		<td><input name="fm_email" type="text" id="fm_email" size="35" maxlength="40"></td>
+	</tr>
+	<tr>
+		<td align="right">Alamat</td>
+		<td><b>:</b></td>
+		<td><textarea name="fm_alamat" cols="35" rows="2" id="fm_alamat"></textarea></td>
+	</tr>
+		<tr>
+		<td align="right">Keterangan</td>
+		<td><b>:</b></td>
+		<td><textarea name="fm_deskripsi" cols="35" rows="4" id="fm_deskripsi"></textarea></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><input name="tb_simpan" type="submit" id="tb_simpan" value="Simpan"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

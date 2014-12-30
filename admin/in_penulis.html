@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Administrator</title>
+<link rel="stylesheet" type="text/css" href="../tpl/style_admin.css">
+</head>
+
+<body>
+	<form name="form1" method="post" action="exe_penulis.php">
+	<table width="425" border="0" align="center" cellpadding="0" cellspacing="2" class="tb_admin">
+		<tr bgcolor="#BFD0EA">
+			<td height="21" colspan="3"><strong>Masukkan Data Penulis</strong></td>
+		</tr>
+		<tr>
+			<td width="21%" align="right">Kode Penulis</td>
+			<td width="2%"><b>:</b></td>
+			<td width="77%"><input name="fm_kdpenulis" type="text" id="fm_kdpenulis" size="6" maxlength="5"></td>
+		</tr>
+		<tr>
+			<td align="right">Nama Penulis</td>
+			<td><b>:</b></td>
+			<td><input name="fm_penulis" type="text" id="fm_penulis" size="35" maxlength="35"></td>
+		</tr>
+		<tr>
+			<td align="right">Email</td>
+			<td><b>:</b></td>
+			<td><input name="fm_email" type="text" id="fm_email" size="35" maxlength="40"></td>
+		</tr>
+		<tr>
+			<td align="right">Alamat</td>
+			<td><b>:</b></td>
+			<td><textarea name="fm_alamat" id="fm_alamat" cols="35" rows="2"></textarea></td>
+		</tr>
+		<tr>
+			<td align="right">Keterangan</td>
+			<td><b>:</b></td>
+			<td><textarea name="fm_deskripsi" id="fm_deskripsi" cols="35" rows="4"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input name="tb_simpan" type="submit" id="tb_simpan" value="Simpan"></td>
+		</tr>
+		
+	</table>
+	</form>
+</body>
+</html>
