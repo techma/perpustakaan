@@ -8,18 +8,9 @@ session_start();
 ?>
 <html lang="en">
 <head>
-	<!--
-		Charisma v1.0.0
 
-		Copyright 2012 Muhammad Usman
-		Licensed under the Apache License v2.0
-		http://www.apache.org/licenses/LICENSE-2.0
-
-		http://usman.it
-		http://twitter.com/halalit_usman
-	-->
 	<meta charset="utf-8">
-	<title>Best Oto</title>
+	<title>DigiPUSTAKA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -201,67 +192,6 @@ if($link=='proeditprovinsi'){include('provinsi/proeditprovinsi.php');} else
 if($link=='deleteprovinsi'){include('provinsi/deleteprovinsi.php');} else
 
 
-//kota
-if($link=='kota'){include('kota/kota.php');} else
-if($link=='addkota'){include('kota/addkota.php');} else
-if($link=='proaddkota'){include('kota/proaddkota.php');} else
-if($link=='editkota'){include('kota/editkota.php');} else
-if($link=='proeditkota'){include('kota/proeditkota.php');} else
-if($link=='deletekota'){include('kota/deletekota.php');} else
-
-//shop
-if($link=='shop'){include('shop/shop.php');} else
-if($link=='addshop'){include('shop/addshop.php');} else
-if($link=='proaddshop'){include('shop/proaddshop.php');} else
-if($link=='editshop'){include('shop/editshop.php');} else
-if($link=='proeditshop'){include('shop/proeditshop.php');} else
-if($link=='deleteshop'){include('shop/deleteshop.php');} else
-
-//pinjam
-if($link=='pinj'){include('pinj/pinj.php');} else
-if($link=='propinj'){include('pinj/propinj.php');} else
-
-//simpanan
-if($link=='simpan'){include('simpan/simpan.php');} else
-if($link=='wajib'){include('simpan/wajib.php');} else
-if($link=='pokok'){include('simpan/pokok.php');} else
-if($link=='pribadi'){include('simpan/pribadi.php');} else
-if($link=='prosimpan'){include('simpan/prosimpan.php');} else
-
-//simulasi
-if($link=='sim'){include('sim/sim.php');} else
-if($link=='prosim'){include('sim/prosim.php');} else
-
-//tipe
-if($link=='tipe'){include('tipe/tipe.php');} else
-if($link=='addtipe'){include('tipe/addtipe.php');} else
-if($link=='proaddtipe'){include('tipe/proaddtipe.php');} else
-if($link=='edittipe'){include('tipe/edittipe.php');} else
-if($link=='proedittipe'){include('tipe/proedittipe.php');} else
-if($link=='deletetipe'){include('tipe/deletetipe.php');} else
-
-//merk
-if($link=='merk'){include('merk/merk.php');} else
-if($link=='addmerk'){include('merk/addmerk.php');} else
-if($link=='proaddmerk'){include('merk/proaddmerk.php');} else
-if($link=='editmerk'){include('merk/editmerk.php');} else
-if($link=='proeditmerk'){include('merk/proeditmerk.php');} else
-if($link=='deletemerk'){include('merk/deletemerk.php');} else
-
-//kategori
-if($link=='kategori'){include('kategori/kategori.php');} else
-if($link=='addkategori'){include('kategori/addkategori.php');} else
-if($link=='proaddkategori'){include('kategori/proaddkategori.php');} else
-if($link=='editkategori'){include('kategori/editkategori.php');} else
-if($link=='proeditkategori'){include('kategori/proeditkategori.php');} else
-if($link=='deletekategori'){include('kategori/deletekategori.php');} else
-
-//merk
-if($link=='kategori'){include('kategori/kategori.php');} else
-if($link=='cetak_forum2'){include('forum/cetak_forum2.php');} else
-if($link=='view_forum'){include('forum/view_forum.php');} else
-if($link=='view_berita'){include('berita/view_berita.php');} else
-if($link=='cetak_berita2'){include('berita/cetak_berita2.php');}
 			?>
 			</div><!--/#content.span10-->
 				</div><!--/fluid-row-->
